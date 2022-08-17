@@ -3,7 +3,7 @@ import { GiHamburgerMenu } from 'react-icons/gi';
 import { MdOutlineRestaurantMenu } from 'react-icons/md';
 
 import './Navbar.css';
-import images from '../../constants/images';
+import { images } from '../../constants';
 
 const Navbar = () => {
   const [toggle, setToggle] = React.useState(false);
